@@ -1,0 +1,24 @@
+
+
+* {
+    box-sizing: border-box; /*определяет как вычисляется общая ширина и высота элемента.*/
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding:  0 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@import 'blocks/header';
+
+
+
+// font-family: 'Merriweather', serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Roboto', sans-serif;
