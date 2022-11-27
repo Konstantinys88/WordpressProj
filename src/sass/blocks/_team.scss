@@ -1,0 +1,44 @@
+.team {
+    max-height: 745px;
+    padding-bottom: 146px;
+    &__inner {
+        display: flex;
+        justify-content: space-around;
+
+    }
+    &__item {
+        text-align: center;
+        padding-top: 127px;
+
+    }
+    &__item-img {
+        margin-bottom: 22px;
+
+    }
+    &__item-title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #464646;
+        margin: 0;
+        margin-bottom: 7px;
+    }
+    &__item-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #b3b3b3;
+        margin: 0;
+        margin-bottom: 21px;
+    }
+    &__icon-box a {
+        height: 20px;
+        color: #e4e4e4;
+        transition: 0.2s;
+        &:hover {
+            color:#464646;
+        }
+    }
+}

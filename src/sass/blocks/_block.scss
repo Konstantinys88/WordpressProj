@@ -1,0 +1,38 @@
+.block {
+    text-align: center;
+    &__title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 34px;
+        line-height: 26px;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #1d1e1f;
+        margin: 0;
+        padding-top: 138px;
+        margin-bottom: 13px;
+    }
+    &__text {
+        font-family: 'Merriweather', serif;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+        font-style: italic;
+        letter-spacing: 0.02em;
+        color: #898888;
+        margin: 0;
+    }
+}
+
+
+.inverse .block__title {
+    padding-top: 176px;
+    color: #ffffff;
+}
+
+.inverse .block__text {
+    color: #777777;
+}
+
+.contacts .block__title {
+    padding-top: 95px;
+}

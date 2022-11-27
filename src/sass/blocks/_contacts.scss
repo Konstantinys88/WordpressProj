@@ -1,0 +1,93 @@
+.contacts {
+    &__inner{
+
+    }
+    &__icon-box {
+        display: flex;
+        justify-content: space-between;
+        max-width: 570px;
+        padding-top: 64px;
+        margin: 0 auto;
+    }
+    &__item {
+        text-align: center;
+        width: 130px;
+        i {
+            color: #323232;
+            font-size: 21px;
+        }
+    }
+    &__text {
+        margin-bottom: 12px;
+        a {
+            font-family: 'Roboto', sans-serif;
+            font-size: 12px;
+            line-height: 26px;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            color: #898888;
+            text-decoration: none;
+            transition: 0.3s;
+            &:hover {
+                color:#323232;
+                text-decoration: underline;
+            }
+        }
+    }
+    &__form {
+        padding-top: 153px;
+        display: flex;
+        flex-direction: column;
+        max-width: 770px;
+        margin: 0 auto;
+        input {
+            height: 52px;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            line-height: 26px;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            color: #898888;
+            border: 1px solid #999999;
+        }
+    }
+    &__name {
+        margin-bottom: 20px;
+    }
+    &__email {
+        margin-bottom: 20px;
+    }
+    &__number {
+        margin-bottom: 18px;
+    }
+    &__textarea {
+        margin-bottom: 21px;
+        height: 195px;
+        resize: none;
+        padding: 22px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        line-height: 26px;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #898888;
+        border: 1px solid #999999;
+    }
+}
+
+.contacts__form .contacts__button {
+    background-color: #161616;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #fefefe;
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}
+

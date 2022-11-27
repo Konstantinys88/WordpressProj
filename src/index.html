@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
 
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -33,9 +34,140 @@
             </div>
         </div>
     </heaser>
-    
+
+    <main>
+        <section class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__item">
+                        <div class="about__year">2011</div>
+                        <div class="about__text">Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit.</div>
+                    </div>
+                    <div class="about__item">
+                        <div class="about__year">2012</div>
+                        <div class="about__text">Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit. Begitus vit urna nulla.</div>
+                    </div>
+                    <div class="about__item">
+                        <div class="about__year">2013</div>
+                        <div class="about__text">Sed at auctor sem, nec tincidunt elit. Pellentesque enim turpis, porttitor ac orci in, ultrices efficitur nisl. Ut odio libero, sodales a tellus eleifend, suscipit dapibus mi.</div>
+                    </div>
+                    <div class="about__item">
+                        <div class="about__year">2014</div>
+                        <div class="about__text">Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus varius nec diam vitae hendrerit bigus mit. Begitus vit urna nulla.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <div class="block">
+                    <h2 class="block__title">This is our team</h2>
+                    <p class="block__text">We are small but effective and ...</p>
+                </div>
+                <div class="team__inner">
+                    <div class="team__item">
+                        <img class="team__item-img" src="/src/img/team1.png" alt="team1">
+                        <h3 class="team__item-title">Mark Once</h3>
+                        <p class="team__item-text">Designer & Front-End Developer</p>
+                        <div class="team__icon-box">
+                            <a href="#"><i class="icon-twitter"></i></a>
+                            <a href="#"><i class="icon-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team__item">
+                        <img class="team__item-img" src="/src/img/team2.png" alt="team2">
+                        <h3 class="team__item-title">Justin Twice</h3>
+                        <p class="team__item-text">Founder & CEO</p>
+                        <div class="team__icon-box">
+                            <a href="#"><i class="icon-twitter"></i></a>
+                            <a href="#"><i class="icon-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="team__item">
+                        <img class="team__item-img" src="/src/img/team3.png" alt="team3">
+                        <h3 class="team__item-title">Antonio Never</h3>
+                        <p class="team__item-text">Someone & Somewhere</p>
+                        <div class="team__icon-box">
+                            <a href="#"><i class="icon-twitter"></i></a>
+                            <a href="#"><i class="icon-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="provide">
+            <div class="container">
+                <div class="block inverse">
+                    <h2 class="block__title">We provide you everything</h2>
+                    <p class="block__text">Maybe not everything, but we provide you some stuff.</p>
+                </div>
+                <div class="provide__inner">
+                    <div class="provide__item">
+                        <i class="icon-chart-line"></i>
+                        <h3 class="provide__item-title">Some Analytics</h3>
+                        <p class="provide__item-text">Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</p>
+                    </div>
+                    <div class="provide__item">
+                        <i class="icon-heart"></i>
+                        <h3 class="provide__item-title">We provide you love</h3>
+                        <p class="provide__item-text">Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</p>
+                    </div>
+                    <div class="provide__item">
+                        <i class="icon-upload-cloud-outline"></i>
+                        <h3 class="provide__item-title">And Some Cloud</h3>
+                        <p class="provide__item-text">Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts">
+            <div class="container">
+                <div class="block">
+                    <h2 class="block__title">Contac Us</h2>
+                    <p class="block__text">We know what we need to do</p>
+                </div>
+                <div class="contacts__inner">
+                    <div class="contacts__icon-box">
+                        <div class="contacts__item">
+                            <i class="icon-phone"></i>
+                            <div class="contacts__text"><a href="tel:555222333">555-222-333</a></div>
+                        </div>
+                        <div class="contacts__item">
+                            <i class="icon-location"></i>
+                            <div class="contacts__text"><a target="_blank" href="https://goo.gl/maps/q4w9EdvKR2J2hRiG7">Here is some address</a></div>
+                        </div>
+                        <div class="contacts__item">
+                            <i class="icon-mail-alt"></i>
+                            <div class="contacts__text"><a href="mailto:somemail@hotmail.com">somemail@hotmail.com</a></div>
+                        </div>
+                    </div>
+                    <form action="" class="contacts__form">
+                        <input class="contacts__name" type="text" placeholder="Full Name">
+                        <input class="contacts__email" type="email" placeholder="Email">
+                        <input class="contacts__number" type="tel" placeholder="Number">
+                        <textarea class="contacts__textarea" placeholder="Write your Message here..."></textarea>
+                        <input type="submit" class="contacts__button" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__text">Copyright &copy; Kenan Hamidic. All rights reserved.</div>
+        </div>
+    </footer>
 
 
     <script src="js/script.js"></script>
 </body>
 </html>
+
+
+
+
