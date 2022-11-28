@@ -55,32 +55,66 @@
         }
         &__mobile {
             display: flex;
+            flex-direction: column;
+        }
+        &__inner {
+            display: flex;
             justify-content: space-between;
             align-items:center;
         }
         &__menu {
             display: none;
+            text-align: center;
+            a {
+                margin: 0;
+            }
+            li {
+                padding: 10px 0;
+            }
         }
         &__burger {
+            display: block;
+            overflow: hidden;
+            padding: 0;
+            cursor: pointer;
             width: 40px;
-            height: 3px;
+            height: 40px;
+            font-size: 0;
+            border-radius: 5px;
             background-color:black;
             position: relative;
-            &::after {
-                content:'';
-                width: 40px;
-                height: 3px;
-                background-color:black;
+            span {
+                display: block;
                 position: absolute;
-                top: -10px;
-            }
-            &::before {
-                content:'';
-                width: 40px;
-                height: 3px;
-                background-color:black;
-                position: absolute;
-                top: 10px;
+                background-color:aliceblue;
+                height: 4px;
+                width: 30px;
+                top: 18px;
+                left: 5px;
+                right: 5px;
+                transition: 0s 0.3s;
+                &::after {
+                    content:'';
+                    position: absolute;
+                    display: block;
+                    height: 4px;
+                    width: 100%;
+                    background-color:aliceblue;
+                    top: -10px;
+                    transition-duration: 0.3s, 0.3s;
+                    transition-delay: 0.3s, 0s;
+                }
+                &::before {
+                    content:'';
+                    position: absolute;
+                    display: block;
+                    height: 4px;
+                    width: 100%;
+                    background-color:aliceblue;
+                    top: 10px;
+                    transition-duration: 0.3s, 0.3s;
+                    transition-delay: 0.3s, 0s;
+                }
             }
         }
         &__title {
@@ -90,7 +124,21 @@
         &__button {
             margin-bottom: 100px;
         }
+        &__close {
+            span {
+                background: none;
+                &::after {
+                    top: 0;
+                    transform: rotate(45deg);
+                }
+                &::before {
+                    top: 0;
+                    transform: rotate(-45deg);
+                }
+            }
+        }
     }
+
     .about {
         padding-top: 80px;
         &__item {
