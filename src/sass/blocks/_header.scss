@@ -16,12 +16,14 @@
                 font-family: 'Roboto', sans-serif;
                 margin-right: 43px;
                 text-decoration: none;
-
             }
         }
         &_item:last-child a {
             margin-right: 0;
         }
+    }
+    &__mobile {
+        display: none;
     }
     &__logo {
         margin: 0 16px;
