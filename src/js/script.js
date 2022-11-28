@@ -7,13 +7,13 @@ $(document).ready(function() {
         }, 500);
         $('nav a[href^="#"]').parent().removeClass('active');
         $(this).parent().addClass('active');
-        $('.header__menu').toggle(500);
+        $('.header__mobile .header__menu').toggle(500);
         $('.header__burger').toggleClass('header__close');
         return false;
     });
     // мобильное меню
     $('.header__burger').click(function() {
-        $('.header__menu').toggle(500);
+        $('.header__mobile .header__menu').toggle(500);
         $(this).toggleClass('header__close');
     });
 });
